@@ -1,0 +1,38 @@
+.navbar
+{
+    background-color: var( --background-nav );
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 13px;
+}
+
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+.navbar section
+{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    font-size: 1.01em;
+}
+
+.navbar ul li
+{
+    color: #6B7280;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: inherit;
+}
