@@ -2,8 +2,24 @@
 {
     border-bottom: 1px solid var( --border-input-color );
 }
-.hero-section
+.container
 {
     margin-left: 50px;
+}
+
+.cards .items
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     background-color: aqua;
+   list-style: none;
+}
+
+.items:nth-child(1)
+{
+    flex-basis: 200px;
+    color: white;
+    flex-grow: 5;
 }

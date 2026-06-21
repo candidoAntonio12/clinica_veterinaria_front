@@ -1,8 +1,7 @@
 .button-primary
 {
-    border-radius: 9%;
     text-align: center;
-    border: 1px solid var( --border-card-color );
+    border: 2px solid var( --border-card-color );
     color:  hsl(49, 17%, 88%);
     background-color: var( --primary-color );
     font-size: 1.01em;
@@ -11,7 +10,22 @@
 }
 .button-primary:hover
 {
-    background-color: var( --border-card-color );
+    background-color: var( --background-nav );
     color: var( --primary-color );
     border-color: var( --primary-color );
+}
+.button-secondary
+{
+    text-align: center;
+    border: 2px  solid var( --primary-color );
+    background-color: var(--background-nav );
+    font-size: 1.01em;
+    cursor: pointer;
+    transition: all 100ms
+}
+
+.button-secondary:hover
+{
+    color:  hsl(49, 17%, 88%);
+    background-color: var( --primary-color );
 }

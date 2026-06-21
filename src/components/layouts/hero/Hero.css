@@ -1,1 +1,40 @@
+.hero
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
 
+}
+.hero-ilustration
+{
+    display: flex;
+    justify-content: center;
+}
+.hero-Content
+{
+    margin-top: 40px;
+}
+.hero-Content .hero-title
+{
+    width: 500px;
+    height: 200px;
+}
+.hero-title h1
+{
+    font-size: 2.5em;    
+}
+.hero-title h4
+{
+    margin-top: 20px;
+    color: var( --text-secondary-color );
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.hero-action
+{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
