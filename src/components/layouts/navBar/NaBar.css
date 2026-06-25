@@ -30,9 +30,17 @@
 {
     color: #6B7280;
 }
-
+.navbar ul li:hover
+{
+    font-weight: bold
+}
 .navbar ul li a
 {
     text-decoration: none;
     color: inherit;
+}
+
+.active
+{
+    font-weight: bold;
 }

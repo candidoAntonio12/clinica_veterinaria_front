@@ -10,9 +10,9 @@
 }
 .button-primary:hover
 {
-    background-color: var( --background-nav );
-    color: var( --primary-color );
-    border-color: var( --primary-color );
+    background-color: var( --text-third-color );
+    text-transform: capitalize;
+    font-weight: bold;
 }
 .button-secondary
 {
@@ -26,6 +26,6 @@
 
 .button-secondary:hover
 {
-    color:  hsl(49, 17%, 88%);
-    background-color: var( --primary-color );
+    border-color: var( --text-third-color );
+    font-weight: bold;
 }

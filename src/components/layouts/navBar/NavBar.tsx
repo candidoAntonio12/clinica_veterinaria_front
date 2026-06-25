@@ -13,22 +13,42 @@ export default function NavBar()
             <section>
                     <ul>
                         <li>
-                            <NavLink to={"/home"} >
+                            <NavLink 
+                                className={({isActive, isPending}) =>{
+                                    (isPending  ? "" : (isActive ? "active" : ""))
+                                }} 
+                                to={"/"}
+                             >
                                 Home
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/dashboard"}>
+                            <NavLink
+                                className={({isActive, isPending}) =>{
+                                    isPending  ? "" : (isActive ? "active" : "")
+                                }} 
+                                to={"/dashboard"}
+                             >
                                 Dashboard
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/tutor"}>
+                            <NavLink
+                                className={({isActive, isPending}) =>{
+                                    isPending  ? "" : (isActive ? "active" : "")
+                                }} 
+                                to={"/tutor"}
+                            >
                                 Tutor
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/animais"}>
+                            <NavLink 
+                                    className={({isActive, isPending}) =>{
+                                        isPending  ? "" : (isActive ? "active" : "")
+                                    }}
+                                    to={"/animais"}
+                                >
                                 Animais
                             </NavLink>
                         </li>
