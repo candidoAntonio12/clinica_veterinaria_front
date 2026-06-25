@@ -1,0 +1,40 @@
+.card
+{
+    background-color: var(--background-nav);
+    border: 1px solid var(--backgroud-color);
+}
+
+.card .card-title, .card .description
+{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.card .description
+{
+    color: var(--text-secondary-color);
+
+}
+.card-icon
+{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.card-icon img
+{
+    height: 25%;
+    width: 25%;
+}
+.card .header
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--backgroud-color);
+    color: var(--text-third-color);
+}
